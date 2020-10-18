@@ -31,7 +31,7 @@ describe('.towelSort, should perfrom \'towelSort\'', () => {
     assert.deepEqual(towelSort(matrix), [ 1, 2, 3, 6, 5, 4, 7, 8, 9 ]);
   });
 
-  it('should do towelSort', () => {
+      it('should do towelSort', () => {
     const matrix = [
         [1, 2, 3, 4],
         [5, 6, 7, 8],
